@@ -6,6 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet"> 
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -16,16 +19,24 @@
   </style>
 </head>
 <body>
-  <div>
-  <h1>Get insights that help your business grow.</h1>
+  <div class="container">
+  <div class="card">
+  <h1 id="mainheading">Get insights that help your business grow.</h1>
 
-  <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+
+  <p id="mainparagraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
   experience, and overall efficiency.</p>
   <ul>
-  <li>10k+ companies</li>
-  <li>314 templates</li>
-  <li>12m+ queries</li>
+    <h2><li class="stats">10k+</li></h2>
+    <h2><li class="stats">314</li></h2>
+    <h2><li class="stats">12m+</li></h2>
   </ul>
+  <ul>
+    <li class="statsheadings">companies</li>
+    <li class="statsheadings">templates</li>
+    <li class="statsheadings">queries</li>
+  </ul>
+  </div>
   </div>
 
   <div class="attribution">

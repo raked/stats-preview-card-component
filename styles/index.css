@@ -1,0 +1,50 @@
+/*
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+.container {
+  background-color: hsl(233, 47%, 7%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+  padding: 5rem;
+  border-radius: 5px;
+}
+
+.statsheadings {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+}
+
+.stats {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+#mainparagraph {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#mainheading {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
