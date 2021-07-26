@@ -23,7 +23,7 @@ body {
 
 .card {
   background-color: hsl(244, 38%, 16%);
-  padding: 5rem;
+  display: flex;
   border-radius: 5px;
 }
 
@@ -39,8 +39,18 @@ body {
   font-weight: 700;
 }
 
+#content {
+  margin: 7.5rem;
+}
+
+#headerimage img {
+  border-radius: 0px 5px 5px 0px;
+}
+
 #mainparagraph {
   color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 #mainheading {
