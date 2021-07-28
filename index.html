@@ -22,7 +22,7 @@
   <div class="container">
   <div class="card">
     <div id="content">
-  <h1 id="mainheading">Get insights that help your business grow.</h1>
+  <h1 id="mainheading">Get <span id="insights">insights</span> that help your business grow.</h1>
 
 
   <p id="mainparagraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
@@ -30,7 +30,7 @@
   <ul>
     <h2><li class="stats">10k+</li></h2>
     <h2><li class="stats">314</li></h2>
-    <h2><li class="stats">12m+</li></h2>
+    <h2><li class="stats">12M+</li></h2>
   </ul>
   <ul>
     <li class="statsheadings">companies</li>
@@ -39,7 +39,16 @@
   </ul>
 </div>
 <div id="headerimage">
-  <img src="images/image-header-desktop.jpg">
+  <picture>
+    <source 
+       media="(min-width: 1920px)"
+       srcset="images/image-header-desktop.jpg">
+    <source 
+       media="(max-width: 1000px)"
+       srcset="images/image-header-mobile.jpg">
+    <img src="images/image-header-desktop.jpg" 
+    alt="people working around a desk on computers">
+ </picture> 
 </div>
   </div>
   </div>
